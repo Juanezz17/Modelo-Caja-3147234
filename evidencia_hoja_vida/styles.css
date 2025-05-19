@@ -1,0 +1,59 @@
+/*Estilos globales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #BD7F60;
+}
+/*Estilos de card*/
+.card{
+    display: block;
+    background-color: #87554C;
+    width: 400px;
+    height: 600px;
+    margin: 150px auto 10px auto; /*hacer una distibución equitativa del espacio disponible*/
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 128, 0);
+}
+.img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px auto;
+    box-shadow: #ab6b60 0px 0px 10px 4px;
+}
+.contenedor{
+    display: block;
+    margin: 50px auto 20px auto;
+    width: 70%;
+}
+.titulo, .parrafo{
+    display: block;
+}
+.titulo{
+    text-align: center;
+    font-size: 30px;
+    color: #F0E4E2;
+    margin: 10px auto 20px;
+}
+.parrafo{
+    text-align: justify;
+    font-size: 20px;
+    color: #201425;
+    margin: 10px auto 20px;
+}
+.boton{
+    display: block;
+    width: 100%;
+    background-color: #c56c5c;
+    color: #F0E4E2;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    border-radius:  10px;
+}

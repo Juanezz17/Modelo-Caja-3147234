@@ -8,8 +8,16 @@ Box Model:
 -funciona si
     + los elementos tienen contenido
     + o tiene un tamaño definido
+Margin: 
+    - Determina el espacio entre los elementos
+    - Solo aplica a elementos display block
+    - 
 */
-
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .box{
     border-top-color: rgb(255, 0, 0);
     border-top-style: groove;
@@ -25,14 +33,30 @@ Box Model:
     border-bottom-width: 10px;
 }
 .box1{
+    margin-top: 20px 40px;
     background-color: rgb(15, 109, 31);
     padding: 50px 45px 3px; 
     display: block;
-    height: 100px;
-}
+    height: 200px;
+    width: 300px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 20px;
+}   
 .box2{
     background-color: rgb(28, 56, 157);
     padding: 2px 4px 6px 8px; 
     display: block;
     height: 200px;
+    width: 200px;
+    opacity: 0.5;
+    margin-top: 100px;
+    border-radius: 50%;
+    padding: 60px;
+    align-items: center;
+    justify-content: center;
 }
